@@ -1,8 +1,8 @@
 <?php
     session_start();
     $is_pass = true;
-    $con = mysqli_connect('localhost','DoBang','02022000');
-    mysqli_select_db($con,'php_tutorial');
+    $con = mysqli_connect('localhost','Y8ozx8Lvfd',' KTxuOcdYX2');
+    mysqli_select_db($con,'Y8ozx8Lvfd');
     $email = trim($_POST['email']);
     $name = trim($_POST['user']);
     $pass = trim($_POST['password']);
